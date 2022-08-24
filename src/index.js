@@ -1,16 +1,25 @@
 /* eslint-disable no-restricted-globals */
+import fetchScore from './modules/fetchScore.js';
 import './style.css';
-import lists from './modules/list.js';
+import postScore from './modules/postScore.js';
 
+const btnRefresh = document.getElementById('btn-refresh');
+const form = document.querySelector('form');
 function component() {
   const element = document.createElement('div');
-  lists();
+  fetchScore();
   return element;
 }
-const btnRefresh = document.getElementById('btn-refresh');
-
 btnRefresh.addEventListener('click', () => {
   location.reload();
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const inputUser = form.querySelector('input[type = "text"]').value;
+  const inputScore = form.querySelector('input[type = "number"]').value;
+  postScore(inputUser, inputScore);
+  form.reset();
 });
 
 document.body.appendChild(component());

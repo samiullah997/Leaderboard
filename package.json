@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samiullah997/leaderboard.git"
+    "url": "git+https://github.com/samiullah997/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samiullah997/leaderboard/issues"
+    "url": "https://github.com/samiullah997/Leaderboard/issues"
   },
-  "homepage": "https://samiullah997.github.io/leaderboard/",
+  "homepage": "https://samiullah997.github.io/Leaderboard/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",

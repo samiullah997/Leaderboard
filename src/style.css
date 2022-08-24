@@ -49,6 +49,8 @@ ul {
 
 .ul li {
   margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .add-score-section {
