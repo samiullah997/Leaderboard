@@ -5,11 +5,11 @@ import postScore from './modules/postScore.js';
 
 const btnRefresh = document.getElementById('btn-refresh');
 const form = document.querySelector('form');
-function component() {
+const component = () => {
   const element = document.createElement('div');
   fetchScore();
   return element;
-}
+};
 btnRefresh.addEventListener('click', () => {
   location.reload();
 });
