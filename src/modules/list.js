@@ -1,11 +1,9 @@
-const Tasks = require('./Task.js');
-
-const lists = () => {
+const lists = (score) => {
   const ul = document.getElementById('ul');
   ul.innerHTML = '';
-  Tasks.forEach((listItems) => {
+  score.forEach((listItems) => {
     const li = document.createElement('li');
-    li.innerText = `${listItems.name} ${listItems.score}`;
+    li.innerText = `${listItems.user}: ${listItems.score}`;
     ul.appendChild(li);
   });
   return ul;

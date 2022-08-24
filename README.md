@@ -1,4 +1,4 @@
-# To-Do-List
+# LeaderBoard
 
 - In this project, I am building a simple HTML list of To Do tasks. The list will be styled according to the specifications. This simple web page will be built using webpack and served by a webpack dev server.
 
@@ -30,7 +30,7 @@ Run Command: npm run build
 
 
 ## setup
-- git clone https://github.com/samiullah997/To-Do-List.git/
+- git clone https://github.com/samiullah997/Leaderboard.git/
 - cd To-Do-List
 
 
@@ -44,7 +44,7 @@ Run Command: npm run build
 
 
 ## LIVE DEMO
-https://samiullah997.github.io/To-Do-List/
+https://samiullah997.github.io/Leaderboard/
 
 ## 🤝 Contributing
 
