@@ -6,7 +6,14 @@
 
 body {
   width: 100%;
-  height: auto;
+  height: 100%;
+  background-color: lightgray;
+  color: rgb(0, 15, 183);
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
 }
 
 ul {
@@ -20,6 +27,18 @@ ul {
   gap: 20px;
 }
 
+.wrapper {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
 .recent-score-section {
   display: flex;
   flex-direction: column;
@@ -28,31 +47,46 @@ ul {
 }
 
 .header {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
+  color: rgb(0, 15, 183);
 }
 
 .score-container {
   width: 300px;
   height: auto;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 15, 183);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .ul li {
   margin-top: 10px;
-  border: 1px solid black;
-  padding: 5px;
+  border: 1px solid rgb(0, 15, 183);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(0, 15, 183);
+}
+
+.ul li:hover {
+  margin-top: 10px;
+  background-color: rgb(0, 15, 183);
+  color: white;
+  border: 1px solid rgb(0, 15, 183);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .add-score-section {
+  color: rgb(0, 15, 183);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -66,10 +100,28 @@ ul {
   align-items: flex-end;
 }
 
+input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgb(0, 15, 183);
+  border-radius: 10px;
+  color: rgb(0, 15, 183);
+}
+
 button {
-  width: 50px;
-  height: 20px;
   background-color: white;
-  color: black;
-  border: 1px solid black;
+  color: rgb(0, 15, 183);
+  border: 1px solid rgb(0, 15, 183);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(0, 15, 183);
+  border: 1px solid rgb(0, 15, 183);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }

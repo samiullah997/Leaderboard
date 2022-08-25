@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 import fetchScore from './modules/fetchScore.js';
 import './style.css';
 import postScore from './modules/postScore.js';
@@ -11,7 +10,7 @@ const component = () => {
   return element;
 };
 btnRefresh.addEventListener('click', () => {
-  location.reload();
+  fetchScore();
 });
 
 form.addEventListener('submit', (e) => {
