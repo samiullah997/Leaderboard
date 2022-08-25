@@ -10,27 +10,31 @@
 </head>
 
 <body>
-    <h1>Leaderboard</h1>
+    <div class="title">
+        <h1>Leaderboard</h1>
+    </div>
     <div class="container">
-        <div class="recent-score-section">
-            <div class="header">
-                <h2>Recent Scores</h2> <button type="button" class="btn-refresh" id="btn-refresh">Refresh</button>
-            </div>
-            <div class="score-container">
-                <ul class="ul" id="ul">
-                </ul>
-            </div>
-        </div>
-
-        <div class="add-score-section">
-            <h2>Add your score</h2>
-            <form action="#" class="form" id="form">
-                <div class="form-area">
-                <input class="name" id="name" type="text" required placeholder="Your Name">
-                <input class="score" id="score" type="number" required placeholder="Your Score">
-                <button class="btn-submit" type="submit">Submit</button>
+        <div class="wrapper">
+            <div class="recent-score-section">
+                <div class="header">
+                    <h2>Recent Scores</h2> <button type="button" class="btn-refresh" id="btn-refresh">Refresh</button>
                 </div>
-            </form>
+                <div class="score-container">
+                    <ul class="ul" id="ul">
+                    </ul>
+                </div>
+            </div>
+
+            <div class="add-score-section">
+                <h2>Add your score</h2>
+                <form action="#" class="form" id="form">
+                    <div class="form-area">
+                        <input class="name" id="name" type="text" required placeholder="Your Name">
+                        <input class="score" id="score" type="number" required placeholder="Your Score">
+                        <button class="btn-submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <script src="bundle.js"></script>
