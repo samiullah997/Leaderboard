@@ -44,7 +44,7 @@ Run Command: npm run build
 
 
 ## LIVE DEMO
-https://samiullah997.github.io/Leaderboard/
+https://sami-leader-board.netlify.app/
 
 ## 🤝 Contributing
 
